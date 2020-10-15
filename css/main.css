@@ -30,6 +30,20 @@ body {
 	width: 100%;
 }
 
+.heroNay {
+	background-attachment: fixed;
+	background-image: url(../img/padaria.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	height: 90vh;
+	justify-content: space-between;
+	padding: 20px;
+	position: center;
+	width: 100%;
+}
+
 .hero:after {
 	background: linear-gradient(
 		0deg,
@@ -68,6 +82,23 @@ body {
 
 .hero-lista-item {
 	margin: 0 25px;
+}
+
+.hero-lista-item-black {
+	margin: 0 25px;
+}
+
+.hero-lista-item-black a {
+	color: rgb(10, 10, 10);
+	font-size: 1.8em;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.2s ease-in-out;
+}
+
+.hero-lista-item-black a:hover {
+	color: #e4bb23;
 }
 
 .hero-lista-item a,
@@ -231,6 +262,19 @@ body {
 	margin-bottom: 30px;
 	overflow: hidden;
 	width: 24%;
+}
+
+.catalogo-filmes-lista-item-index5 {
+	background-color: rgb(214, 210, 158);
+	border-radius: 15px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+	overflow: hidden;
+	padding: 1%;
+	font-size: 1.2em;
+	width: 30%;
 }
 
 .filme-poster {
